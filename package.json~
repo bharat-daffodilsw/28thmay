@@ -17,7 +17,7 @@
 	},
 	
 "scripts":{
-"test": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneDB/test --recursive  --timeout 150000  --reporter spec"
+"test": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneDB/test --recursive  --timeout 150000 'view testcase' --reporter spec"
 	
 	
 },
