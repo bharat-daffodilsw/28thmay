@@ -3,7 +3,7 @@
     "version":"1.0.0",
     "description":"Mongo DB",
     "main":"index.js",
- "dependencies":{
+    "dependencies":{
  	"mocha":"*",
  	"chai":"*",
  	"googleapis":"1.0.14",
@@ -22,12 +22,13 @@
 	"ApplaneApps":"git+https://2497b79998465e241f37727770759465f4eb0cc3:x-oauth-basic@github.com/daffodilsw/ApplaneApps.git",
 	"NorthwindTestCase":"git+https://2497b79998465e241f37727770759465f4eb0cc3:x-oauth-basic@github.com/daffodilsw/NorthwindSource.git",
 	"ApplaneError":"git+https://2497b79998465e241f37727770759465f4eb0cc3:x-oauth-basic@github.com/daffodilsw/ApplaneError.git",
-	"node-xlsx":"0.4.0"
+	"node-xlsx":"0.4.0",
+	"ejs":"1.0.0"
 	},
 	
-"scripts":{
-"test": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneDB/test --recursive  --timeout 150000",
-"start": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneApps/test --recursive  --timeout 150000"
+    "scripts":{
+    "test": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneDB/test --recursive  --timeout 150000",
+    "start": "sudo ./node_modules/.bin/mocha  ./node_modules/ApplaneApps/test --recursive  --timeout 150000"
 
 	
 	
